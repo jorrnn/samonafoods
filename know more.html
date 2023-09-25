@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samona foods.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="navLinks" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Want To Know More About Us? </h1>
+
+   </section>
+
+<!-------- about us page -------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <img src="d.jpg">
+            <h1>products.</h1>
+            <p>processed Honey. <br>
+               Raw Honey. <br>
+               Extracted Honey. <br>
+               Honey wine. <br>
+               Honey comb. <br>
+            </p>
+        </div>
+        <div class="about-col">
+            
+        </div>
+        <div class="about-col">
+            <img src="b.jpg">
+            <h1>Materials.</h1>
+            <p>Smoker. <br>
+               Bee hive. <br>
+               Bee suit. <br>
+               Boots. <br>
+               Hive stands. <br>
+               Scrapper knife. <br>
+               procolies. <br>
+               Wax. <br>
+            </p>
+        </div>
+        <div class="about-col">
+            
+        </div>
+        <div class="about-col">
+            <img src="a.jpg">
+            <h1>Services.</h1>
+            <p>Establishment of apiarey. <br>
+               Honey Laboratory analysis. <br>
+               Bee Keeping tranning. <br>
+               Honey supply. <br>
+               100% bee honey supply. <br>
+               Establishment of Honey Laboratory. <br>
+               Honey processing equipment supply. <br>
+               Consultancy of honey. <br>
+            </p>
+    </div>
+</section>
+<!------- footer -------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>To produce hygenic and 100% bee honey with the fear of God</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i>by BIG JORN</p>
+</section>
+
+
+<!--------JavaScript for Toggle Menu-------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+
+
+
+</body>
+</html>
